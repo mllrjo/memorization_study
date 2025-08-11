@@ -1,0 +1,8 @@
+2025-08-11 14:32:07,296 - core.entropy_calculator - INFO - Calculated dataset entropy: 70400.00 bits (N=100, S=64, V=2048)
+2025-08-11 14:32:07,296 - core.entropy_calculator - INFO - Calculated dataset entropy: 352000.00 bits (N=500, S=64, V=2048)
+2025-08-11 14:32:07,296 - core.entropy_calculator - INFO - Calculated dataset entropy: 704000.00 bits (N=1000, S=64, V=2048)
+2025-08-11 14:32:07,296 - core.entropy_calculator - INFO - Calculated dataset entropy: 3520000.00 bits (N=5000, S=64, V=2048)
+2025-08-11 14:32:07,320 - core.entropy_calculator - INFO - Calculated dataset entropy: 704000.00 bits (N=1000, S=64, V=2048)
+2025-08-11 14:32:07,333 - core.entropy_calculator - INFO - Using CPU
+2025-08-11 14:32:07,334 - core.entropy_calculator - INFO - Calculating model entropy for 1000 sequences of length 64 using batch_size 50
+2025-08-11 14:32:07,384 - core.entropy_calculator - ERROR - Error in entropy calculation: Model forward pass failed on batch 0: view size is not compatible with input tensor's size and stride (at least one dimension spans across two contiguous subspaces). Use .reshape(...) instead.
